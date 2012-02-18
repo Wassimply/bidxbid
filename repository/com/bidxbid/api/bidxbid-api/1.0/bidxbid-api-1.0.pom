@@ -5,11 +5,11 @@
     <parent>
         <groupId>com.bidxbid</groupId>
         <artifactId>bidxbid-api</artifactId>
-        <version>0.4</version>
+        <version>1.0</version>
     </parent>    
     <artifactId>bidxbid-api</artifactId>
     <packaging>jar</packaging>
-    <name>BidXBid java api</name>
+    <name>BidXBid java client api</name>
 
     <dependencies>
         <dependency>
