@@ -2,19 +2,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>com.bidxbid</groupId>
-        <artifactId>bidxbid-api</artifactId>
-        <version>0.4</version>
-    </parent>    
+
     <artifactId>bidxbid-api</artifactId>
     <packaging>jar</packaging>
     <name>bidxbid client java api</name>
     
     <dependencies>
         
-        <!--unit test related dependencies-->
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -67,7 +61,7 @@
         <project_charset>UTF-8</project_charset>
     </properties>
 
-    <!-- Build Settings -->
+    <!-- Build Settings 
     <build>
         <sourceDirectory>target/filtered-sources/java</sourceDirectory>
         <plugins>
@@ -87,6 +81,5 @@
           <targetPath>../filtered-sources/java</targetPath>
         </resource>
       </resources>
-    </build>
-    
+    </build>-->
 </project>
