@@ -24,6 +24,7 @@ Auction and Bidding will be normally created by some service provider just like 
 _Note that those examples refer to demand while the framework also supports supply auction as well_
 
 = Create your first auction =
+ # Login to [http://www.BidXBid.com BidXBid web site] with your Google account, you'll get free tier just enough to learn and test the framework.
 {{{
 
 public class BidXBidExapmle 
@@ -59,10 +60,3 @@ public class BidXBidExapmle
 	}
 }
 }}}
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
