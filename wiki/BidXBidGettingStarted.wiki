@@ -1,5 +1,5 @@
 #labels Featured
-#Getting Started With BidXBid Electronic Auctions Service
+Getting Started With BidXBid Electronic Auctions Service
 
 
 = Introduction =
@@ -13,8 +13,15 @@ BidXBid provides the following capabilities:
 * Bidding
 * Auction and Bidding
 
-Note that Auction and Bidding will be normally created by some service provider just like Google AdWords 
+examples of usage for the above capabilities:
 
+Auctioning will be conducted by an entity the would like to sell some digital asset, lets say a picture taken in some certain event, with defined parameters [date,occasion etc], with unknown price.
+
+Bidding will be conducted by some entity that would like to purchase a digital asset (e.g. 100G for month on someones computer) 
+
+Auction and Bidding will be normally created by some service provider just like [http://adwords.google.com Google AdWords] conducting an auction for each advertisement based on general pricing parameters of the costumers, buying advertisements in pages or search results containing words that are in their advertisement domain.
+
+_note that those examples refer to demand while the framework also supports supply auction as well_
 
 = Details =
 
