@@ -5,13 +5,13 @@ Getting Started With BidXBid Electronic Auctions Service
 = Introduction =
 This is a step by step guide for getting started with BidXBid Web services.
 BidXBid provides Auctions web service designed to specifically implement a general trading arena between automated brokers.
-Those brokers can trade digital and non digital goods and can be conducted on behalf of third parties or by a buying or selling software.
+Those brokers can trade digital and non digital goods and can be conducted on behalf of third parties or by a buying/selling software broker.
 
 
 BidXBid provides the following capabilities:
-* Auctioning
-* Bidding
-* Auction and Bidding
+ * Auctioning
+ * Bidding
+ * Auction and Bidding
 
 examples of usage for the above capabilities:
 
@@ -21,7 +21,7 @@ Bidding will be conducted by some entity that would like to purchase a digital a
 
 Auction and Bidding will be normally created by some service provider just like [http://adwords.google.com Google AdWords] conducting an auction for each advertisement based on general pricing parameters of the costumers, buying advertisements in pages or search results containing words that are in their advertisement domain.
 
-_note that those examples refer to demand while the framework also supports supply auction as well_
+_Note that those examples refer to demand while the framework also supports supply auction as well_
 
 = Details =
 
