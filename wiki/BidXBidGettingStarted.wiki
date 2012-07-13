@@ -25,46 +25,9 @@ _Note that those examples refer to demand while the framework also supports supp
 
 = Code Sample =
 {{{
-package com.bidxbid.client.examples;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
-import org.joda.time.DateTime;
-
-import com.bidxbid.api.configuration.Globals;
-import com.bidxbid.api.model.auction.Auction;
-import com.bidxbid.api.model.auction.AuctionType;
-import com.bidxbid.api.model.auction.SecondaryParam;
-import com.bidxbid.api.model.auction.process.ShuffleBiddersListProcess;
-import com.bidxbid.api.model.auction.process.StandardApproveProcess;
-import com.bidxbid.api.model.auction.process.StandardAskProcess;
-import com.bidxbid.api.model.auction.process.StandardAuctionClose;
-import com.bidxbid.api.model.auctioneer.Auctioneer;
-import com.bidxbid.api.model.auctioneer.Auctioneer.PROCESS;
-import com.bidxbid.api.model.bidder.Bidder;
-import com.bidxbid.api.model.bidder.policy.BidderPolicy;
-import com.bidxbid.api.model.bidder.policy.BudgetBidderPolicy;
-import com.bidxbid.api.model.items.Item;
-import com.bidxbid.api.model.user.User;
-import com.bidxbid.api.rest.client.AuctionProxy;
-import com.bidxbid.api.rest.client.AuctioneerProxy;
-import com.bidxbid.api.rest.client.UserProxy;
-import com.bidxbid.api.type.AuctionPrimaryType;
-import com.bidxbid.api.type.AuctionSecondaryType;
-import com.bidxbid.api.type.PrimeryParamType;
-
-/**
- * BidXBid Hello World Example!
- *
- */
-public class MyAuctioneer 
+public class BidXBidExapmle 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello Auctioneer!" );
-    }
 
 	protected void remoteStandardAuction() {
 		String email = "my@email.com";
