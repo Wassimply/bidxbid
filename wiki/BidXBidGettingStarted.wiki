@@ -27,9 +27,10 @@ _Note that those examples refer to demand while the framework also supports supp
  # Login to [http://www.BidXBid.com BidXBid web site] with your Google account, you'll get free tier just enough to learn and test the framework.
  # Check your email for your BidXBid Secret key
  # Get ready for production is easy just register your PayPal account with BidXBid on your [http://www.bidxbid.com/my/account account page]
-{{{
+ # Download BidXBid example maven sample project and you are ready to code
 
-public class BidXBidExapmle 
+{{{
+public class BidXBidExample 
 {
 
 	protected void remoteStandardAuction() {
