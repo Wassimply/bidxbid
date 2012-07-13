@@ -23,7 +23,7 @@ Auction and Bidding will be normally created by some service provider just like 
 
 _Note that those examples refer to demand while the framework also supports supply auction as well_
 
-= Code Example =
+= Create your first auction =
 {{{
 
 public class BidXBidExapmle 
